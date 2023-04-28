@@ -1,38 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: lightcoral;
+  font-size: .9em;
+  font-weight: 700;
+  color: #fff;
+}
+
 .App {
+  width: 900px;
+  height: 900px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Logo {
+  font-family: 'Lilita One', cursive;
+  font-size: 4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table {
+  width: 600px;
+  height: 600px;
+  margin: 30px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table td {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  font-family: 'Lilita One', cursive;
+  font-size: 8rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #217408;
 }
